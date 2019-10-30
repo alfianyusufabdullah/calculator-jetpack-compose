@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/dicoding/project/ComposeCalculator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "outputFile": "C:\\Users\\khris\\AndroidStudioProjects\\calculator-jetpack-compose\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "/home/dicoding/.gradle/caches/transforms-2/files-2.1/c7b4bc8563d38f23080f1239d6655c9d/appcompat-1.1.0/res/values-port/values-port.xml",
+                    "source": "C:\\Users\\khris\\.gradle\\caches\\transforms-2\\files-2.1\\da0e3d95084f718de82fea814fe004e1\\appcompat-1.1.0\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

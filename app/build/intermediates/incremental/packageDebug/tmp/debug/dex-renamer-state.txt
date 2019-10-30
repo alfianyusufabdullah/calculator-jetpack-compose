@@ -1,7 +1,7 @@
-#Wed Oct 30 02:08:12 WIB 2019
-base.0=/home/dicoding/project/ComposeCalculator/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+#Wed Oct 30 12:30:27 ICT 2019
+base.0=C\:\\Users\\khris\\AndroidStudioProjects\\calculator-jetpack-compose\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/home/dicoding/project/ComposeCalculator/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
+base.1=C\:\\Users\\khris\\AndroidStudioProjects\\calculator-jetpack-compose\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex

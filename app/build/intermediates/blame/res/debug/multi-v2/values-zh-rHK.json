@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/dicoding/project/ComposeCalculator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "C:\\Users\\khris\\AndroidStudioProjects\\calculator-jetpack-compose\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
             "map": [
                 {
-                    "source": "/home/dicoding/.gradle/caches/transforms-2/files-2.1/c7b4bc8563d38f23080f1239d6655c9d/appcompat-1.1.0/res/values-zh-rHK/values-zh-rHK.xml",
+                    "source": "C:\\Users\\khris\\.gradle\\caches\\transforms-2\\files-2.1\\da0e3d95084f718de82fea814fe004e1\\appcompat-1.1.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/dicoding/.gradle/caches/transforms-2/files-2.1/2bf1a11f129731009d794441d8f6b21a/core-1.1.0/res/values-zh-rHK/values-zh-rHK.xml",
+                    "source": "C:\\Users\\khris\\.gradle\\caches\\transforms-2\\files-2.1\\8ecbcab7ffa2a7d138c7debed0da993e\\core-1.1.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
