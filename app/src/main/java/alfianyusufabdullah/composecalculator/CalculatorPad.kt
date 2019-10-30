@@ -11,6 +11,7 @@ import androidx.ui.layout.Container
 import androidx.ui.layout.Padding
 import androidx.ui.material.surface.Card
 import androidx.ui.material.themeTextStyle
+import androidx.ui.text.TextStyle
 
 @Composable
 fun buttonNumberPad(text: String, action: (String) -> Unit) {
@@ -31,7 +32,7 @@ fun buttonOperationPad(operation: Operation, action: (Operation) -> Unit) {
         Card(shape = RoundedCornerShape(50.dp), elevation = 5.dp, color = Color.Gray) {
             Clickable(onClick = { action(operation) }) {
                 Container(height = 75.dp, width = 75.dp) {
-                    Text(operation.read(), style = +themeTextStyle { h6 })
+                    Text(operation.read(), style = TextStyle(color = Color.White))
                 }
             }
         }
