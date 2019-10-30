@@ -47,44 +47,35 @@ class MainActivity : AppCompatActivity() {
                     }
                     Center {
                         Row {
-                            Column {
-                                numberPad[0].forEach {
-                                    buttonNumberPad(it) { value ->
-                                        previewNumberState.add(value)
+                            numberPad.forEachIndexed { index, pad ->
+                                Column {
+                                    pad.forEach {
+                                        buttonNumberPad(it) { value ->
+                                            previewNumberState.add(value)
+                                        }
                                     }
-                                }
-                            }
-                            Column {
-                                numberPad[1].forEach {
-                                    buttonNumberPad(it) { value ->
-                                        previewNumberState.add(value)
-                                    }
-                                }
-                            }
-                            Column {
-                                numberPad[2].forEach {
-                                    buttonNumberPad(it) { value ->
-                                        previewNumberState.add(value)
-                                    }
-                                }
+                                    if (index == numberPad.lastIndex) {
+                                        buttonDoOperationPad {
+                                            try {
+                                                val valueOne =
+                                                    previewNumberTempState.value.toInt()
+                                                val valueTwo = previewNumberState.value.toInt()
 
-                                buttonDoOperationPad {
-                                    try {
-                                        val valueOne = previewNumberTempState.value.toInt()
-                                        val valueTwo = previewNumberState.value.toInt()
-
-                                        previewNumberState.value =
-                                            "${operationState.value.doOperation(
-                                                valueOne,
-                                                valueTwo
-                                            )}"
-                                        previewNumberTempState.value = ""
-                                        operationState.value = Operation.NONE
-                                    } catch (e: Exception) {
-                                        e.printStackTrace()
+                                                previewNumberState.value =
+                                                    "${operationState.value.doOperation(
+                                                        valueOne,
+                                                        valueTwo
+                                                    )}"
+                                                previewNumberTempState.value = ""
+                                                operationState.value = Operation.NONE
+                                            } catch (e: Exception) {
+                                                e.printStackTrace()
+                                            }
+                                        }
                                     }
                                 }
                             }
+
                             WidthSpacer(15.dp)
                             Column {
                                 operationPad.forEach {
