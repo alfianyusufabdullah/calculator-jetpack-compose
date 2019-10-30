@@ -30,7 +30,7 @@ fun buttonNumberPad(text: String, action: (String) -> Unit) {
 @Composable
 fun buttonOperationPad(operation: Operation, action: (Operation) -> Unit) {
     Padding(padding = 5.dp) {
-        Card(shape = RoundedCornerShape(50.dp), elevation = 5.dp, color = Color.Gray) {
+        Card(shape = RoundedCornerShape(50.dp), elevation = 5.dp, color = Color.DarkGray) {
             Clickable(onClick = { action(operation) }) {
                 Container(height = 75.dp, width = 75.dp) {
                     Text(operation.read(), style = TextStyle(color = Color.White, fontSize = 20.sp))
